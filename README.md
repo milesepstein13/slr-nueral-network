@@ -11,6 +11,6 @@ model = keras.models.load_model('path/to/slr_model')
 
 2. From slr_model.h5, using any package that can read .h5 files
 
-When using the model, the following inputs in the following order must be used: Temperatures* (K), U-components of wind* (m/s), V-components of wind* (m/s), specific humidities* (kg/kg), vertical velocities* (Pa/s), instantaneous 10 m wind gust (m/s), 10 m u-component of wind (m/s), 10 m v-component of wind (m/s), 2 m temperature (K), 2 m dew point (K), 100 m u-component of wind (m/s), 100 m v-component of wind (m/s), for 122 total inputs.
+When using the model, the following 122 inputs in the following order must be used: Temperatures* (K), U-components of wind* (m/s), V-components of wind* (m/s), specific humidities* (kg/kg), vertical velocities* (Pa/s), instantaneous 10 m wind gust (m/s), 10 m u-component of wind (m/s), 10 m v-component of wind (m/s), 2 m temperature (K), 2 m dew point (K), 100 m u-component of wind (m/s), 100 m v-component of wind (m/s).
 
 Where values marked with * must be input at each pressure level of 1000, 975, 950, 925, 900, 875, 850, 825, 800, 775, 750, 700, 650, 600, 550, 500, 450, 400, 350, 300, 250, 225, and 200 kPa.
