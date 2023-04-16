@@ -1,5 +1,5 @@
 # slr-nueral-network
-Neural network that can be used to forecast SLR from temperatures, winds, and humidity.
+Neural network that can be used to forecast SLR from temperatures, winds, and humidity. The full project is available at https://github.com/milesepstein13/slr-model
 
 The neueral network can be used in two ways:
 
