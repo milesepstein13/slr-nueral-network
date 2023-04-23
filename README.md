@@ -3,7 +3,7 @@ Neural network that can be used to forecast SLR from temperatures, winds, and hu
 
 The neueral network can be used in two ways:
 
-1. Using Keras, download the slr_model folder and load the model using Keras with 
+1. Using Keras: download the slr_model folder and load the model using Keras with 
 ```
 from tensorflow import keras
 model = keras.models.load_model('path/to/slr_model')
